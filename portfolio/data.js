@@ -5,8 +5,8 @@ window.PORTFOLIO = {
   githubUser: "RiosRosendo",
   linkedin: "https://www.linkedin.com/in/delosriosrosendo",
   email: "delosriosrosendo@gmail.com",
-  cvFile: { es: "docs/Rosendo_CV_ES.pdf", en: "docs/Rosendo_CV_EN.pdf" },
-  photo: "rosendo.jpeg",
+  cvFile: { es: "portfolio/docs/Rosendo_CV_ES.pdf", en: "portfolio/docs/Rosendo_CV_EN.pdf" },
+  photo: "portfolio/rosendo.jpeg",
 
   skills: [
     {
@@ -73,7 +73,7 @@ window.PORTFOLIO = {
   projects: [
     {
       year: "2026", index: "01",
-      image: "img/aist.png",
+      image: "portfolio/img/aist.png",
       video: "", // ← ej: "https://youtu.be/XXXXXXX" o "https://youtube.com/watch?v=XXXXXXX"
       tag_es: "Pasantía · AIST Japón", tag_en: "Internship · AIST Japan",
       title: { es: "Brazo Robótico de Teleoperación Consciente de Ocupación", en: "Teleoperated Occupancy-Aware Robot Arm" },
@@ -86,7 +86,7 @@ window.PORTFOLIO = {
     },
     {
       year: "2025", index: "02",
-      image: "img/line.png",
+      image: "portfolio/img/line.png",
       tag_es: "Autónomo · Manchester Robotics", tag_en: "Autonomous · Manchester Robotics",
       title: { es: "Reto Autónomo PuzzleBot", en: "Autonomous PuzzleBot Challenge" },
       es: "Robot autónomo que navega por un track en forma de 'B' con detección de señales de tráfico en tiempo real. Integra ROS2 en NVIDIA Jetson, YOLO para visión, line following con PID y máquina de estados (Pytrees) para comportamiento inteligente. Participé en testing exhaustivo y optimización de performance en vivo, logrando 92.4% de precisión en seguimiento de línea.",
@@ -98,7 +98,7 @@ window.PORTFOLIO = {
     },
     {
       year: "2025", index: "03",
-      image: "img/silla.png",
+      image: "portfolio/img/silla.png",
       tag_es: "Robótica móvil · Social", tag_en: "Mobile robotics · Social",
       title: { es: "Navegación de Silla de Ruedas Autónoma", en: "Autonomous Wheelchair Navigation" },
       es: "Prototipo de silla de ruedas autónoma con ROS2 Humble, SLAM y Nav2 usando LiDAR RPLiDAR A1. Mapeo de campus universitario para asistencia de movilidad a personas con discapacidad motora en espacios públicos grandes.",
@@ -110,7 +110,7 @@ window.PORTFOLIO = {
     },
     {
       year: "2025", index: "04",
-      image: "img/xarm_kinect.png",
+      image: "portfolio/img/xarm_kinect.png",
       tag_es: "Visión 3D · Industrial", tag_en: "3D Vision · Industrial",
       title: { es: "Seguimiento de Bandeja de Aceite con xArm + Kinect v2", en: "xArm + Kinect v2 Oil Pan Tracking" },
       es: "Pipeline de percepción 3D en ROS2 para seguimiento y manipulación industrial de piezas (oil pan). Filtrado de nube de puntos con Open3D, alineación ICP con modelo CAD, estimación de pose y control del brazo xArm. Precisión de 2.8 cm y latencia de 450 ms.",
@@ -122,7 +122,7 @@ window.PORTFOLIO = {
     },
     {
       year: "2025", index: "05",
-      image: "img/Teleoperation via Body Pose.png",
+      image: "portfolio/img/Teleoperation via Body Pose.png",
       tag_es: "Teleoperación · CV", tag_en: "Teleoperation · CV",
       title: { es: "Teleoperación de Brazo de 3 GDL por Pose Corporal", en: "3-DOF Arm Teleoperation via Body Pose" },
       es: "Teleoperación de brazo robótico de 3 GDL controlado únicamente con una cámara. MediaPipe detecta puntos clave de mano y cuerpo, calcula ángulos articulares y los transmite a una simulación 3D en Processing en tiempo real.",
@@ -134,7 +134,7 @@ window.PORTFOLIO = {
     },
     {
       year: "2024", index: "06",
-      image: "img/UAV.png",
+      image: "portfolio/img/UAV.png",
       tag_es: "Robótica aérea · UAV", tag_en: "Aerial robotics · UAV",
       title: { es: "Dron de Patrulla Autónomo — Tello Robomaster TT", en: "Autonomous Patrol Drone — Tello Robomaster TT" },
       es: "Dron de patrullaje autónomo en perímetro cuadrado de 2×2 m con detección de intrusos por visión artificial. Al detectar una persona a menos de 1 metro se detiene y activa señales de alerta. Integra cinemática de cuadrotor y control de vuelo.",
@@ -146,7 +146,7 @@ window.PORTFOLIO = {
     },
     {
       year: "2024", index: "08",
-      image: "img/autonomus_tractor.png",
+      image: "portfolio/img/autonomus_tractor.png",
       tag_es: "Embebidos · John Deere", tag_en: "Embedded · John Deere",
       title: { es: "Tractor Autónomo — John Deere (FreeRTOS)", en: "Autonomous Tractor — John Deere (FreeRTOS)" },
       es: "Prototipo de tractor autónomo en escala en colaboración con John Deere. Navegación por waypoints con STM32H755 dual-core, FreeRTOS, IMU, encoders y protocolos CAN/SPI/UART. Modelo V para verificación y pruebas unitarias de motor y servo.",
@@ -158,7 +158,7 @@ window.PORTFOLIO = {
     },
     {
       year: "2024", index: "09",
-      image: "img/Smart Tractor.png",
+      image: "portfolio/img/Smart Tractor.png",
       tag_es: "Embebidos · John Deere", tag_en: "Embedded · John Deere",
       title: { es: "Monitor Inteligente de Tractor — John Deere (STM32 + RPi)", en: "Smart Tractor Monitor — John Deere (STM32 + RPi)" },
       es: "Sistema inteligente de conducción para tractor en colaboración con John Deere. STM32F103 mide velocidad del motor con acelerómetro, gestiona marchas y envía datos vía FTDI a una Raspberry Pi que grafica parámetros en tiempo real con Python.",
@@ -170,7 +170,7 @@ window.PORTFOLIO = {
     },
     {
       year: "2023", index: "10",
-      image: "img/simuladortractor.png",
+      image: "portfolio/img/simuladortractor.png",
       tag_es: "FPGA · Sistemas en Chip", tag_en: "FPGA · System on Chip",
       title: { es: "Simulador de Tractor — FPGA + Unity", en: "Tractor Simulator — FPGA + Unity" },
       es: "Simulador de tractor agrícola en Unity controlado por FPGA DE10-Lite. Implementa lógica de control en PLD (VHDL) para interpretar botones, switches y acelerómetro. Muestra datos en tiempo real (contador de cosecha, velocidad) mediante conexión serial. Proyecto de sistemas embebidos integrado hardware-software.",
@@ -182,7 +182,7 @@ window.PORTFOLIO = {
     },
     {
       year: "2023", index: "11",
-      image: "img/greenwatertech.png",
+      image: "portfolio/img/greenwatertech.png",
       tag_es: "IoT · Sostenibilidad", tag_en: "IoT · Sustainability",
       title: { es: "GreenWaterTech — IoT de Riego Inteligente", en: "GreenWaterTech — Smart Irrigation IoT" },
       es: "Plataforma IoT para optimizar el riego agrícola con sensores de humedad y temperatura del suelo, Firebase Realtime Database, algoritmos de control inteligente y dashboard web en Next.js con interfaz móvil. Alineado con ODS 11 y 12.",
