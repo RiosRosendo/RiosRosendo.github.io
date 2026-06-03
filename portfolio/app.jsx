@@ -3,7 +3,7 @@
 const TWEAK_DEFAULTS = {
   "introVariant": "liquid",
   "accent": "#2f6bff",
-  "startLang": "es"
+  "startLang": "en"
 };
 
 const ACCENT_OPTS = ["#2f6bff", "#19b6c9", "#f5a524", "#e2e8f5"];
