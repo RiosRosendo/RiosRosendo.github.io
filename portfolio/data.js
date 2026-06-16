@@ -96,7 +96,7 @@ window.PORTFOLIO = {
       en: "Complete autonomous robotics system for a scaled warehouse (3.65 × 4.85 m). Includes in-house SLAM in C++ with particle filter and CUDA optimization, ArUco localization, A* navigation without Nav2, live digital twin in Gazebo, YASMIN state machine for pick & place missions, vision (ArUco + QR), custom voice pipeline (MFCC → VQ → HMM), and FPGA-driven lifter control. Distributed stack: Jetson for real-time SLAM, laptop for planning and digital twin.",
       stack: ["ROS2", "C++", "Python", "SLAM", "CUDA", "Gazebo", "FPGA", "ArUco", "A*", "Flask", "SocketIO"],
       repo: "https://github.com/JordanPalafox/SmallAutonomousMobileRobot",
-      paper: "docs/Custom Autonomy Stack for a Warehouse.pdf",
+      paper: "docs/Custom_Autonomy_Stack_for_Warehouse.pdf",
       video: "https://www.youtube.com/shorts/AEM72Lx7E6k"
     },
     {
