@@ -96,7 +96,7 @@ window.PORTFOLIO = {
       en: "Complete autonomous robotics system for a scaled warehouse (3.65 × 4.85 m). Includes in-house SLAM in C++ with particle filter and CUDA optimization, ArUco localization, A* navigation without Nav2, live digital twin in Gazebo, YASMIN state machine for pick & place missions, vision (ArUco + QR), custom voice pipeline (MFCC → VQ → HMM), and FPGA-driven lifter control. Distributed stack: Jetson for real-time SLAM, laptop for planning and digital twin.",
       stack: ["ROS2", "C++", "Python", "SLAM", "CUDA", "Gazebo", "FPGA", "ArUco", "A*", "Flask", "SocketIO"],
       repo: "https://github.com/JordanPalafox/SmallAutonomousMobileRobot",
-      paper: "docs/Custom_Autonomy_Stack_for_Warehouse.pdf",
+      paper: "/portfolio/docs/Custom_Autonomy_Stack_for_Warehouse.pdf",
       video: "https://www.youtube.com/shorts/AEM72Lx7E6k"
     },
     {
@@ -109,7 +109,7 @@ window.PORTFOLIO = {
       en: "Teleoperation system for retail manipulation built at AIST Japan. Integrates RGB-D perception (RealSense), TSDF/ESDF voxelization in ROS2, and a Unity interface via OpenHRC. Reduces cognitive load by representing the scene as occupancy voxels instead of raw video.",
       stack: ["ROS2", "RealSense D435i", "Unity", "TSDF/ESDF", "OpenHRC", "Python"],
       repo: "",
-      paper: "docs/Final_Report_A01198515.pdf",
+      paper: "/portfolio/docs/Final_Report_A01198515.pdf",
       video: ""
     },
     {
@@ -133,7 +133,7 @@ window.PORTFOLIO = {
       en: "Autonomous wheelchair prototype with ROS2 Humble, SLAM and Nav2 using RPLiDAR A1. University campus mapping for mobility assistance for people with motor disabilities in large public spaces.",
       stack: ["ROS2", "Nav2", "SLAM", "RPLiDAR A1", "Python", "Differential Drive"],
       repo: "",
-      paper: "docs/Autonomous_mobility_for_people_with_different_needs.pdf",
+      paper: "/portfolio/docs/Autonomous_mobility_for_people_with_different_needs.pdf",
       video: ""
     },
     {
@@ -145,7 +145,7 @@ window.PORTFOLIO = {
       en: "ROS2 3D perception pipeline for industrial oil pan tracking and manipulation. Point cloud filtering with Open3D, ICP alignment with CAD model, pose estimation and xArm control. 2.8 cm accuracy at 450 ms latency.",
       stack: ["ROS2", "Kinect v2", "xArm", "Open3D", "ICP", "Python"],
       repo: "https://github.com/RiosRosendo/xarm-kinect-oil-pan-tracking",
-      paper: "docs/xarm_kinect_paper.pdf",
+      paper: "/portfolio/docs/xarm_kinect_paper.pdf",
       video: "https://youtu.be/UcO9PaDF4hk"
     },
     {
@@ -157,7 +157,7 @@ window.PORTFOLIO = {
       en: "3-DOF robotic arm teleoperation using only a conventional camera. MediaPipe detects hand and body keypoints, computes joint angles, and transmits them to a real-time 3D Processing simulation.",
       stack: ["Python", "MediaPipe", "OpenCV", "Processing", "Logitech C920"],
       repo: "https://github.com/RiosRosendo/3dof-arm-teleoperation",
-      paper: "docs/miniarm_3dof_teleoperation.pdf",
+      paper: "/portfolio/docs/miniarm_3dof_teleoperation.pdf",
       video: "https://youtu.be/rwZ0-BKw0KM"
     },
     {
@@ -181,7 +181,7 @@ window.PORTFOLIO = {
       en: "Scale autonomous tractor in collaboration with John Deere. Waypoint navigation with STM32H755 dual-core, FreeRTOS, IMU, encoders and CAN/SPI/UART protocols. V-model for verification and unit testing of motor and servo subsystems.",
       stack: ["STM32H755", "FreeRTOS", "CAN / SPI / UART", "IMU", "C", "NRF24"],
       repo: "https://github.com/RiosRosendo/autonomous-tractor-freertos",
-      paper: "docs/Autonomous_Tractor_Report.pdf",
+      paper: "/portfolio/docs/Autonomous_Tractor_Report.pdf",
       video: "https://youtube.com/shorts/E_u5Upr1cHg"
     },
     {
@@ -193,7 +193,7 @@ window.PORTFOLIO = {
       en: "Smart tractor driving system in collaboration with John Deere. STM32F103 measures motor speed with an accelerometer, manages gear changes and sends data via FTDI to a Raspberry Pi that plots parameters in real time with Python.",
       stack: ["STM32F103", "Raspberry Pi", "FTDI", "Python", "RTOS", "Accelerometer"],
       repo: "",
-      paper: "docs/smart_tractor_monitor_report.pdf",
+      paper: "/portfolio/docs/smart_tractor_monitor_report.pdf",
       video: "https://youtu.be/KAS2QKjcCOs"
     },
     {
@@ -205,7 +205,7 @@ window.PORTFOLIO = {
       en: "Agricultural tractor simulator in Unity controlled by FPGA DE10-Lite. Implements control logic in PLD (VHDL) to interpret buttons, switches and accelerometer. Displays real-time data (harvest counter, speed) via serial connection. Integrated hardware-software embedded systems project.",
       stack: ["FPGA", "VHDL", "Quartus", "Unity", "C#", "Serial Communication", "Accelerometer"],
       repo: "https://github.com/RiosRosendo/tractor-simulator-fpga-unity",
-      paper: "docs/Tractor_Simulator_Report.pdf",
+      paper: "/portfolio/docs/Tractor_Simulator_Report.pdf",
       video: "https://www.youtube.com/watch?v=Fu5qLoS_6Co"
     },
     {
