@@ -72,6 +72,18 @@ window.PORTFOLIO = {
 
   projects: [
     {
+      year: "2026", index: "12",
+      image: "/portfolio/img/pista.jpg",
+      tag_es: "Robótica · SLAM · IA", tag_en: "Robotics · SLAM · AI",
+      title: { es: "Autonomous Forklift Robot - Autonomous Robot for Warehouse", en: "Autonomous Forklift Robot - Autonomous Robot for Warehouse" },
+      es: "Sistema completo de robótica autónoma para un almacén escalado (3.65 × 4.85 m). Incluye SLAM en C++ con filtro de partículas y CUDA, localización con ArUco, navegación A* sin Nav2, gemelo digital en vivo, máquina de estados YASMIN, visión (ArUco + QR), pipeline de voz sin Whisper (MFCC → VQ → HMM), y control del elevador por FPGA. Stack distribuido: Jetson para SLAM en tiempo real y laptop para planificación y gemelo digital.",
+      en: "Complete autonomous robotics system for a scaled warehouse (3.65 × 4.85 m). Includes in-house SLAM in C++ with particle filter and CUDA optimization, ArUco localization, A* navigation without Nav2, live digital twin in Gazebo, YASMIN state machine for pick & place missions, vision (ArUco + QR), custom voice pipeline (MFCC → VQ → HMM), and FPGA-driven lifter control. Distributed stack: Jetson for real-time SLAM, laptop for planning and digital twin.",
+      stack: ["ROS2", "C++", "Python", "SLAM", "CUDA", "Gazebo", "FPGA", "ArUco", "A*", "Flask", "SocketIO"],
+      repo: "https://github.com/JordanPalafox/SmallAutonomousMobileRobot",
+      paper: "docs/Custom Autonomy Stack for a Warehouse.pdf",
+      video: "https://www.youtube.com/shorts/AEM72Lx7E6k"
+    },
+    {
       year: "2026", index: "01",
       image: "/portfolio/img/aist.png",
       video: "", // ← ej: "https://youtu.be/XXXXXXX" o "https://youtube.com/watch?v=XXXXXXX"
@@ -191,18 +203,6 @@ window.PORTFOLIO = {
       repo: "https://github.com/CarlosMtz1281/GreenWaterTech-Client",
       paper: "",
       video: ""
-    },
-    {
-      year: "2026", index: "12",
-      image: "/portfolio/img/pista.jpg",
-      tag_es: "Robótica · SLAM · IA", tag_en: "Robotics · SLAM · AI",
-      title: { es: "Autonomous Forklift Robot - Autonomous Robot for Warehouse", en: "Autonomous Forklift Robot - Autonomous Robot for Warehouse" },
-      es: "Sistema completo de robótica autónoma para un almacén escalado (3.65 × 4.85 m). Incluye SLAM en C++ con filtro de partículas y CUDA, localización con ArUco, navegación A* sin Nav2, gemelo digital en vivo, máquina de estados YASMIN, visión (ArUco + QR), pipeline de voz sin Whisper (MFCC → VQ → HMM), y control del elevador por FPGA. Stack distribuido: Jetson para SLAM en tiempo real y laptop para planificación y gemelo digital.",
-      en: "Complete autonomous robotics system for a scaled warehouse (3.65 × 4.85 m). Includes in-house SLAM in C++ with particle filter and CUDA optimization, ArUco localization, A* navigation without Nav2, live digital twin in Gazebo, YASMIN state machine for pick & place missions, vision (ArUco + QR), custom voice pipeline (MFCC → VQ → HMM), and FPGA-driven lifter control. Distributed stack: Jetson for real-time SLAM, laptop for planning and digital twin.",
-      stack: ["ROS2", "C++", "Python", "SLAM", "CUDA", "Gazebo", "FPGA", "ArUco", "A*", "Flask", "SocketIO"],
-      repo: "https://github.com/JordanPalafox/SmallAutonomousMobileRobot",
-      paper: "docs/Custom Autonomy Stack for a Warehouse.pdf",
-      video: "https://www.youtube.com/shorts/AEM72Lx7E6k"
     }
   ],
 
