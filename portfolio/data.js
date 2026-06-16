@@ -56,7 +56,18 @@ window.PORTFOLIO = {
         { es: "FPGA / VHDL", en: "FPGA / VHDL" },
         { es: "Quartus", en: "Quartus" },
         { es: "Comunicación Serial", en: "Serial Communication" },
-        { es: "IMU", en: "IMU" }
+        { es: "IMU", en: "IMU" },
+        { es: "NVIDIA Jetson", en: "NVIDIA Jetson" },
+        { es: "CUDA", en: "CUDA" }
+      ]
+    },
+    {
+      es: "Audio & Voz", en: "Audio & Voice",
+      items: [
+        { es: "MFCC", en: "MFCC" },
+        { es: "HMM (Hidden Markov Models)", en: "HMM (Hidden Markov Models)" },
+        { es: "Reconocimiento de Voz", en: "Voice Recognition" },
+        { es: "Procesamiento de Audio", en: "Audio Processing" }
       ]
     },
     {
