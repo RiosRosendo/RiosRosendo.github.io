@@ -72,7 +72,7 @@ window.PORTFOLIO = {
 
   projects: [
     {
-      year: "2026", index: "12",
+      year: "2026", index: "00",
       image: "/portfolio/img/pista.jpg",
       tag_es: "Robótica · SLAM · IA", tag_en: "Robotics · SLAM · AI",
       title: { es: "Autonomous Forklift Robot - Autonomous Robot for Warehouse", en: "Autonomous Forklift Robot - Autonomous Robot for Warehouse" },
