@@ -21,7 +21,9 @@ window.PORTFOLIO = {
         { es: "LiDAR", en: "LiDAR" },
         { es: "UAV / Drones", en: "UAV / Drones" },
         { es: "FreeRTOS", en: "FreeRTOS" },
-        { es: "Navegación Autónoma", en: "Autonomous Navigation" }
+        { es: "Navegación Autónoma", en: "Autonomous Navigation" },
+        { es: "A* Pathfinding", en: "A* Pathfinding" },
+        { es: "YASMIN (State Machine)", en: "YASMIN (State Machine)" }
       ]
     },
     {
@@ -36,7 +38,10 @@ window.PORTFOLIO = {
         { es: "RealSense", en: "RealSense" },
         { es: "Kinect v2", en: "Kinect v2" },
         { es: "TSDF / ESDF", en: "TSDF / ESDF" },
-        { es: "Nubes de Puntos", en: "Point Clouds" }
+        { es: "Nubes de Puntos", en: "Point Clouds" },
+        { es: "Marcadores ArUco", en: "ArUco Markers" },
+        { es: "Detección QR", en: "QR Code Detection" },
+        { es: "Gemelo Digital", en: "Digital Twin" }
       ]
     },
     {
